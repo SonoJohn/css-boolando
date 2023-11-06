@@ -88,10 +88,28 @@ ul {
 }
 
 .details {
-    height: 50px;
+    height: 60px;
     /* DEBUG */
     border: 1px solid black;
 }
 
+.brand {}
+
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.discount {
+    display: inline-block;
+    color: red;
+    font-weight: bolder;
+}
+
+.price {
+    display: inline-block;
+    text-decoration: line-through;
+    font-size: small;
+}
 
 /* FOOTER */
