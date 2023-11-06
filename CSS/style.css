@@ -25,6 +25,13 @@ a {
     color: inherit;
 }
 
+.card {
+    height: 650px;
+    width: 400px;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
 
 /* HEADER */
 .header-section {
@@ -67,6 +74,24 @@ ul {
 
 
 /* MAIN */
+.main {
+    justify-content: center;
+    padding: 50px 200px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* CARDS */
+.image {
+    /* DEBUG */
+    border: 1px solid gray;
+}
+
+.details {
+    height: 50px;
+    /* DEBUG */
+    border: 1px solid black;
+}
 
 
 /* FOOTER */
