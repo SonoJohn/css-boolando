@@ -13,9 +13,15 @@
 
 /* COMMON */
 
+img {
+    max-width: 100%;
+}
+
 
 /* HEADER */
 .header-section {
+    justify-content: space-around;
+    height: 80px;
     background-color: orange;
     /* DEBUG */
     border: 1px solid orange;
@@ -29,7 +35,7 @@
 
 /* LOGO */
 .logo {
-    height: 150px;
+    width: 100px;
     /* DEBUG */
     border: 1px solid red;
 
