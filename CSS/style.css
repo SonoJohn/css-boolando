@@ -41,6 +41,8 @@ a {
     height: 80px;
     background-color: rgb(255, 123, 0);
     color: white;
+    position: fixed;
+    width: 100%;
     /* DEBUG */
     /* border: 1px solid orange; */
 }
@@ -77,7 +79,7 @@ ul {
 /* MAIN */
 .main {
     justify-content: center;
-    padding: 50px 150px;
+    padding: 130px 150px 80px;
     flex-wrap: wrap;
     gap: 20px;
 }
