@@ -166,6 +166,14 @@ ul {
     left: 0px; */
 }
 
+.heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 5px;
+    background-color: white;
+}
+
 /* FOOTER */
 .footer {
     justify-content: space-between;
