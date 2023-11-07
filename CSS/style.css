@@ -168,10 +168,15 @@ ul {
 
 .heart {
     position: absolute;
-    top: 0;
+    font-size: xx-large;
+    top: 5px;
     right: 0;
-    padding: 5px 5px;
+    padding: 5px 15px;
     background-color: white;
+}
+
+.heart:hover {
+    color: red;
 }
 
 /* FOOTER */
