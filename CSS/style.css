@@ -29,7 +29,7 @@ a {
     height: 650px;
     width: 400px;
     /* DEBUG */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image2 {
@@ -102,7 +102,7 @@ ul {
     position: relative;
     height: 590px;
     /* DEBUG */
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .image1,
@@ -115,7 +115,7 @@ ul {
     height: 60px;
 
     /* DEBUG */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .brand {
@@ -137,6 +137,33 @@ ul {
     display: inline-block;
     text-decoration: line-through;
     font-size: small;
+}
+
+/* TAG */
+.tag-container {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.sconto {
+    /* display: inline-block; */
+    padding: 3px 5px;
+    color: white;
+    background-color: red;
+    /* position: absolute;
+    bottom: 50px;
+    left: 0; */
+}
+
+.sostenibilita {
+    /* display: inline-block; */
+    padding: 3px 5px;
+    color: white;
+    background-color: green;
+    /* position: absolute;
+    bottom: 50px;
+    left: 0px; */
 }
 
 /* FOOTER */
