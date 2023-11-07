@@ -32,6 +32,11 @@ a {
     border: 1px solid red;
 }
 
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 /* HEADER */
 .header-section {
@@ -86,6 +91,7 @@ ul {
 
 /* CARDS */
 .image {
+    position: relative;
     /* DEBUG */
     border: 1px solid gray;
 }
