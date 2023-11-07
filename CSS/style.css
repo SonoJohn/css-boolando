@@ -100,8 +100,15 @@ ul {
 /* CARDS */
 .image {
     position: relative;
+    height: 590px;
     /* DEBUG */
     border: 1px solid gray;
+}
+
+.image1,
+.image2 {
+    width: 100%;
+    height: 100%;
 }
 
 .details {
