@@ -32,16 +32,18 @@ a {
     border: 1px solid red;
 }
 
-.image1 {
-    position: relative;
-    z-index: 5;
+.image2 {
+    display: none;
 }
 
-.image2 {
-    position: absolute;
-    top: 0;
-    left: 0;
+.image:hover .image2 {
+    display: block;
 }
+
+.image:hover .image1 {
+    display: none;
+}
+
 
 /* HEADER */
 .header-section {
@@ -104,6 +106,7 @@ ul {
 
 .details {
     height: 60px;
+
     /* DEBUG */
     border: 1px solid black;
 }
