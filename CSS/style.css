@@ -179,7 +179,10 @@ ul {
     font-size: xx-large;
     top: 5px;
     right: 0;
-    padding: 5px 15px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
     background-color: white;
 }
 
